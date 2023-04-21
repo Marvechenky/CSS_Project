@@ -12,6 +12,7 @@
     <title>The Little Taco Shop</title>
     <link rel="icon" href="./favicon/tacos_icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script src="/js/main.js" defer></script>
   </head>
 
   <body>
@@ -65,7 +66,9 @@
           </thead>
           <tbody>
             <tr>
-              <th class="menu__item__cr" scope="row" rowspan="3">Crunchy</th>
+              <th class="menu__item menu__cr" scope="row" rowspan="3">
+                Crunchy
+              </th>
               <td class="menu__item">1</td>
               <td class="menu__item">$1.50</td>
             </tr>
@@ -78,7 +81,9 @@
               <td class="menu__item">$3.25</td>
             </tr>
             <tr>
-              <th class="menu__item__sf" scope="row" rowspan="3">Soft</th>
+              <th class="menu__item menu__sf" scope="row" rowspan="3">
+                Soft
+              </th>
               <td class="menu__item">1</td>
               <td class="menu__item">$2.00</td>
             </tr>
@@ -109,7 +114,7 @@
 
     <footer class="footer">
       <p>
-        <span class="nowrap">Copyright &copy;</span>
+        <span class="nowrap">Copyright &copy; <time id="year"></time></span>
         <span class="nowrap">Little Taco Shop</span>
       </p>
     </footer>
